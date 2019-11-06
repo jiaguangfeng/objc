@@ -1,10 +1,4 @@
-//
-//  main.m
-//  objc02
-//
-//  Created by 贾广烽 on 2019/11/6.
-//  Copyright © 2019 贾广烽. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 
