@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8B7176702373AAAC00AD1325 /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B71766F2373AAAC00AD1325 /* cat.m */; };
+		8B71767E2373F20E00AD1325 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B71767D2373F20E00AD1325 /* Student.m */; };
+		8B7176802373F30F00AD1325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B71767F2373F30F00AD1325 /* main.m */; };
+		8B7176852373F74600AD1325 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7176842373F74600AD1325 /* Father.m */; };
+		8B7176882373F84C00AD1325 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7176872373F84C00AD1325 /* Son.m */; };
 		8BD7E2D823726846009B6AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7E2D723726846009B6AA2 /* main.m */; };
 		8BD7E2E523726873009B6AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7E2E423726873009B6AA2 /* main.m */; };
 		8BD7E2F02372A068009B6AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7E2EF2372A068009B6AA2 /* main.m */; };
@@ -15,6 +19,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8B7176642373AA1000AD1325 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8B7176732373F1DD00AD1325 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -56,6 +69,14 @@
 		8B7176662373AA1000AD1325 /* objc03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objc03; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B71766E2373AAAC00AD1325 /* cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
 		8B71766F2373AAAC00AD1325 /* cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
+		8B7176752373F1DD00AD1325 /* objc04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objc04; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B71767C2373F20E00AD1325 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		8B71767D2373F20E00AD1325 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		8B71767F2373F30F00AD1325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B7176832373F74600AD1325 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		8B7176842373F74600AD1325 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		8B7176862373F84C00AD1325 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		8B7176872373F84C00AD1325 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 		8BD7E2D423726846009B6AA2 /* Objc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Objc; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD7E2D723726846009B6AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BD7E2E223726873009B6AA2 /* objc01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objc01; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +87,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B7176632373AA1000AD1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7176722373F1DD00AD1325 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -105,6 +133,20 @@
 			path = objc03;
 			sourceTree = "<group>";
 		};
+		8B7176762373F1DD00AD1325 /* objc04 */ = {
+			isa = PBXGroup;
+			children = (
+				8B71767C2373F20E00AD1325 /* Student.h */,
+				8B71767D2373F20E00AD1325 /* Student.m */,
+				8B71767F2373F30F00AD1325 /* main.m */,
+				8B7176832373F74600AD1325 /* Father.h */,
+				8B7176842373F74600AD1325 /* Father.m */,
+				8B7176862373F84C00AD1325 /* Son.h */,
+				8B7176872373F84C00AD1325 /* Son.m */,
+			);
+			path = objc04;
+			sourceTree = "<group>";
+		};
 		8BD7E2CB23726846009B6AA2 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +154,7 @@
 				8BD7E2E323726873009B6AA2 /* objc01 */,
 				8BD7E2EE2372A068009B6AA2 /* objc02 */,
 				8B7176672373AA1000AD1325 /* objc03 */,
+				8B7176762373F1DD00AD1325 /* objc04 */,
 				8BD7E2D523726846009B6AA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +166,7 @@
 				8BD7E2E223726873009B6AA2 /* objc01 */,
 				8BD7E2ED2372A068009B6AA2 /* objc02 */,
 				8B7176662373AA1000AD1325 /* objc03 */,
+				8B7176752373F1DD00AD1325 /* objc04 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +213,23 @@
 			name = objc03;
 			productName = objc03;
 			productReference = 8B7176662373AA1000AD1325 /* objc03 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8B7176742373F1DD00AD1325 /* objc04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7176792373F1DD00AD1325 /* Build configuration list for PBXNativeTarget "objc04" */;
+			buildPhases = (
+				8B7176712373F1DD00AD1325 /* Sources */,
+				8B7176722373F1DD00AD1325 /* Frameworks */,
+				8B7176732373F1DD00AD1325 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objc04;
+			productName = objc04;
+			productReference = 8B7176752373F1DD00AD1325 /* objc04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		8BD7E2D323726846009B6AA2 /* Objc */ = {
@@ -234,6 +295,9 @@
 					8B7176652373AA1000AD1325 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					8B7176742373F1DD00AD1325 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					8BD7E2D323726846009B6AA2 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -262,6 +326,7 @@
 				8BD7E2E123726873009B6AA2 /* objc01 */,
 				8BD7E2EC2372A068009B6AA2 /* objc02 */,
 				8B7176652373AA1000AD1325 /* objc03 */,
+				8B7176742373F1DD00AD1325 /* objc04 */,
 			);
 		};
 /* End PBXProject section */
@@ -272,6 +337,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7176702373AAAC00AD1325 /* cat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7176712373F1DD00AD1325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7176882373F84C00AD1325 /* Son.m in Sources */,
+				8B7176802373F30F00AD1325 /* main.m in Sources */,
+				8B7176852373F74600AD1325 /* Father.m in Sources */,
+				8B71767E2373F20E00AD1325 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +389,26 @@
 			name = Debug;
 		};
 		8B71766B2373AA1000AD1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXB727NY7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B71767A2373F1DD00AD1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXB727NY7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B71767B2373F1DD00AD1325 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +595,15 @@
 			buildConfigurations = (
 				8B71766A2373AA1000AD1325 /* Debug */,
 				8B71766B2373AA1000AD1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7176792373F1DD00AD1325 /* Build configuration list for PBXNativeTarget "objc04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B71767A2373F1DD00AD1325 /* Debug */,
+				8B71767B2373F1DD00AD1325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
