@@ -22,6 +22,8 @@ int main(int argc, const char * argv[]) {
         //继承 就好比你有你父亲的属性
         //多态  就 比如 你个动物 能是 狗 猫  一个房子可以是楼房  别墅  等
         
+       
+        
     }
     return 0;
     

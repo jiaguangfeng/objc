@@ -13,7 +13,7 @@
     
   
     NSLog(@" %@  我今年 %d 我喜欢 %@",self.name,self.age,self.aihao);
-    
+    NSLog(@" %@ 这个是字符串的占位符。  %d 是数字的占位符" ,self.name ,self.age)
     
     
 };
